@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Welcome Home - Faith & Flavors</title>
   <style>
     body {
-      background-color: rgba(253, 246, 227, 0.4);
       margin: 0;
       font-family: 'Georgia', serif;
-      background: #fdf6e3 url('https://i.imgur.com/uIrt4XW.jpg') no-repeat center center fixed;
+      background: linear-gradient(rgba(253, 246, 227, 0.7), rgba(253, 246, 227, 0.7)),
+                  url('https://i.imgur.com/uIrt4XW.jpg') no-repeat center center;
       background-size: cover;
+      background-attachment: fixed;
       color: #333;
       text-align: center;
+      padding: 20px;
     }
 
     .gold-gate {
@@ -26,7 +28,7 @@
 
     .letter {
       max-width: 700px;
-      margin: 0 auto;
+      margin: 0 auto 40px auto;
       background-color: rgba(255, 255, 255, 0.85);
       border: 1px solid goldenrod;
       border-radius: 12px;
@@ -69,6 +71,29 @@
       padding: 0;
       font-size: 1.1em;
     }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        background-attachment: scroll;
+        background-position: center top;
+      }
+
+      .letter {
+        padding: 20px 15px;
+      }
+
+      h1, h2 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+    }
   </style>
 </head>
 <body>
@@ -107,17 +132,4 @@
       <li><a href="https://faithcenterinc.org/" target="_blank">The Faith Center (Tucker, GA)</a></li>
       <li><a href="https://www.elizabethbaptist.org" target="_blank">Elizabeth Baptist Church</a></li>
       <li><a href="https://worldchangers.org" target="_blank">World Changers Church</a></li>
-      <li><a href="https://woffamily.org" target="_blank">Word of Faith Family Worship Cathedral</a></li>
-      <li><a href="https://www.rhfan.com" target="_blank">Resurrection House for All Nations</a></li>
-    </ul>
-    <p style="margin-top: 20px;">
-      Looking for more churches? Visit <a href="https://www.churchfinder.com/churches/ga/atlanta" target="_blank">ChurchFinder.com</a> to explore more options in Atlanta.
-    </p>
-  </div>
-
-  <div style="margin: 30px auto; max-width: 700px;">
-    <iframe style="border-radius:12px; width: 100%; max-width: 100%; height: 352px;" src="https://open.spotify.com/embed/track/2svgkUY2l7qh6bdg1fteFY?utm_source=generator" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </div>
-
-</body>
-</html>
+      <li><a href="https://woffamily.org" target="_blank">Word of Faith Family Worship Cathedral</a_
